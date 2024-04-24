@@ -56,9 +56,7 @@ graph export age_histogram.png, replace
 display c(N) 
 display c(k)  
 list in 1/5 
-
 <</dd_do>>
-
 ```
 
 ```
