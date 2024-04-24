@@ -46,26 +46,27 @@
 . graph export age_histogram.png, replace
 
 </code></pre>
+<p><img src="Graph5.svg" ></p>
+<pre><code>
+</code></pre>
 <p><strong>Note:</strong> The mathematical representation of a normal distrition of age: $$ \text{Age, years} \sim \mathcal{N}(\mu=57,\ \sigma^{2}=225) $$</p>
-<p><img src="Graph1.svg" ></p>
-<pre><code>
-</code></pre>
-<p>. display c(N) 30</p>
-<p>. display c(k)<br />
-2</p>
-<p>. list in 1/5</p>
-<pre><code> +---------------------+
- |      age      age_t |
- |---------------------|
-</code></pre>
-<ol>
-<li>| 65.04887   79.46843 |</li>
-<li>| 71.11182   58.01859 |</li>
-<li>|  60.9358   70.99833 |</li>
-<li>| 30.46164   40.42943 |</li>
-<li>| 66.36707   35.78917 | +&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+</li>
-</ol>
-<pre><code>
+<pre><code>. display c(N) 
+30
+
+. display c(k)  
+2
+
+. list in 1/5 
+
+     +---------------------+
+     |      age      age_t |
+     |---------------------|
+  1. | 69.06187   48.99386 |
+  2. | 33.24823   44.71279 |
+  3. | 32.18401   63.26716 |
+  4. | 57.31077   33.22073 |
+  5. |  48.2809   46.33188 |
+     +---------------------+
 
 </code></pre>
 <p><strong>Results:</strong> We used STATA 18.0 to analyze the data. The distribution of age varies each time the STATA code is run. Among the 30 observations, there were 2 variables in the dataset. The table above presents the simulated normal and t distributions of age.</p>

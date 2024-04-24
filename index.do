@@ -42,18 +42,18 @@ hist age, ///
 graph export age_histogram.png, replace
 <</dd_do>>
 ```
+
+
+<<dd_graph>>
+```
+
+```
 **Note:** 
 The mathematical representation of a normal distrition of age: 
 $$
 \text{Age, years} \sim \mathcal{N}(\mu=57,\ \sigma^{2}=225)
 $$
 
-
-<<dd_graph>>
-
-
-
-```
 
 ```
 <<dd_do>>
@@ -64,9 +64,8 @@ list in 1/5
 ```
 
 
-```
+
 **Results:** 
 We used STATA 18.0 to analyze the data. The distribution of age varies each time the STATA code is run. Among the <<dd_display: c(N)>> observations, there were <<dd_display: c(k) >> variables in the dataset. The table above presents the simulated normal and t distributions of age. 
-
 
 Footnote: The results are based on simulated data.
